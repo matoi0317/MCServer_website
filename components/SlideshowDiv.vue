@@ -1,25 +1,24 @@
 <template>
-<div>
-    <div class="example-3d">
-        <swiper class="swiper" :options="swiperOption">
-          <swiper-slide>Slide 1</swiper-slide>
-          <swiper-slide>Slide 2</swiper-slide>
-          <swiper-slide>Slide 3</swiper-slide>
-          <swiper-slide>Slide 4</swiper-slide>
-          <swiper-slide>Slide 5</swiper-slide>
-          <swiper-slide>Slide 6</swiper-slide>
-          <swiper-slide>Slide 7</swiper-slide>
-          <div class="swiper-pagination" slot="pagination"></div>
-        </swiper>
-      </div>
-</div>
+  <div class="example-3d">
+    <swiper class="swiper" :options="swiperOption">
+      <swiper-slide>Slide 1</swiper-slide>
+      <swiper-slide>Slide 2</swiper-slide>
+      <swiper-slide>Slide 3</swiper-slide>
+      <swiper-slide>Slide 4</swiper-slide>
+      <swiper-slide>Slide 5</swiper-slide>
+      <swiper-slide>Slide 6</swiper-slide>
+      <swiper-slide>Slide 7</swiper-slide>
+      <div class="swiper-pagination" slot="pagination"></div>
+    </swiper>
+  </div>
 </template>
+
 <script>
   import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
   import 'swiper/css/swiper.css'
   export default {
-    name: 'swiper-example-3d-coverflow',
-    title: '3D Coverflow effect',
+    name: 'swiper-example-3d-cube',
+    title: '3D Cube effect',
     components: {
       Swiper,
       SwiperSlide
@@ -27,15 +26,13 @@
     data() {
       return {
         swiperOption: {
-          effect: 'coverflow',
+          effect: 'cube',
           grabCursor: true,
-          centeredSlides: true,
-          slidesPerView: 'auto',
-          coverflowEffect: {
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1
+          loop: true,
+          keyboard: {
+            enabled: true,
+          },
+          cubeEffect: {
           },
           pagination: {
             el: '.swiper-pagination'
@@ -45,35 +42,37 @@
     }
   }
 </script>
+
 <style lang="scss" scoped>
-.example-3d {
-      width: 100%;
-      height: 400px;
-      padding-top: 50px;
-      padding-bottom: 50px;
+
+  .example-3d {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .swiper {
+    width: 600px !important;
+    height: 550px;
+    position: relative;
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-weight: bold;
+      font-size: 12px;
+      background-color: #2C8DFB;
+      background-position: center;
+      background-size: cover;
+      color: white;
+      border-radius: 10px;
     }
-    .swiper {
-      height: 100%;
-      width: 100%;
-      .swiper-slide {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 300px;
-        height: 300px;
-        text-align: center;
-        font-weight: bold;
-        font-size: 20;
-        background-color: #2C8DFB;
-        background-position: center;
-        background-size: cover;
-        color: #000;
-        border-radius: 10px;
-      }
-      .swiper-pagination {
-        /deep/ .swiper-pagination-bullet.swiper-pagination-bullet-active {
-          background-color: #fff;
-        }
+    .swiper-pagination {
+      /deep/ .swiper-pagination-bullet.swiper-pagination-bullet-active {
       }
     }
-  </style>
+  }
+</style>
