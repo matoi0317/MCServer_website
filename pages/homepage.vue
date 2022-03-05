@@ -36,7 +36,7 @@ export default {
 .SideMenuDiv{
   height:100%;
   width:34%; 
-  background-color:red;
+  /* background-color:red; */
   margin: 0px;
 }
 

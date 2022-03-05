@@ -1,8 +1,8 @@
 <template>
   <div class="example-3d">
     <swiper class="swiper" :options="swiperOption">
-      <swiper-slide>Slide 1</swiper-slide>
-      <swiper-slide>Slide 2</swiper-slide>
+      <swiper-slide class="slide1"><img src="./athletic.png"></swiper-slide>
+      <swiper-slide></swiper-slide>
       <swiper-slide>Slide 3</swiper-slide>
       <swiper-slide>Slide 4</swiper-slide>
       <swiper-slide>Slide 5</swiper-slide>
@@ -32,10 +32,11 @@
           keyboard: {
             enabled: true,
           },
-          cubeEffect: {
-          },
-          pagination: {
-            el: '.swiper-pagination'
+          cubeEffect:{
+            shadow:true,
+            slideShadows:false,
+            shadowOffset:0,
+            shadowScale:0,
           }
         }
       }
@@ -64,11 +65,10 @@
       text-align: center;
       font-weight: bold;
       font-size: 12px;
-      background-color: #2C8DFB;
-      background-position: center;
+      background-position: 50%;
       background-size: cover;
       color: white;
-      border-radius: 10px;
+      border-radius: 20px;
     }
     .swiper-pagination {
       /deep/ .swiper-pagination-bullet.swiper-pagination-bullet-active {
