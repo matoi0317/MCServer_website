@@ -3,7 +3,7 @@
     <swiper class="swiper" :options="swiperOption">
       <swiper-slide class="slide1"><img src="./athletic.png"></swiper-slide>
       <swiper-slide></swiper-slide>
-      <swiper-slide>Slide 3</swiper-slide>
+      <swiper-slide>Slide</swiper-slide>
       <swiper-slide>Slide 4</swiper-slide>
       <swiper-slide>Slide 5</swiper-slide>
       <swiper-slide>Slide 6</swiper-slide>
