@@ -20,8 +20,9 @@ export default {
 <style scoped>
 .wrapper {
   height: calc(100vh - 50px);
-
+  z-index: 1;
 }
+
 .wrapper1{
   display:flex;
   height:100%;
