@@ -1,7 +1,7 @@
 <template>
   <div class="example-3d">
     <swiper class="swiper" :options="swiperOption">
-      <swiper-slide class="slide1"><img src="./athletic.png"></swiper-slide>
+      <swiper-slide class="slide1"><img class = "slide-image" src="/athletic.png" /></swiper-slide>
       <swiper-slide></swiper-slide>
       <swiper-slide>Slide</swiper-slide>
       <swiper-slide>Slide 4</swiper-slide>
@@ -74,5 +74,9 @@
       /deep/ .swiper-pagination-bullet.swiper-pagination-bullet-active {
       }
     }
+  }
+  .slide-image {
+    width: 100%;
+    height: 100%;
   }
 </style>

@@ -1,6 +1,6 @@
 <template>
 <div class="global-wrapper">
-    <div class="global-header">GlobalHeader</div>
+    <div class="global-header">NULL</div>
     <div class = "right-menu">
       <!-- <button class = 'button menu-button'> Menu </button> -->
       <div class="menu-icon"></div>
@@ -29,6 +29,7 @@ html, body {
     border-bottom: solid 1px #ddd;
     display: flex;
     align-items: center;
+    text-align: center;
     padding: 0 20px;
 }
 .right-menu {

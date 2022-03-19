@@ -2,7 +2,7 @@
     <div class="test">
         <div class="box">
             <div class="content">
-                <img src="../components/athletic.png">
+                <img src="/athletic.png">
             </div>
             <div class="text">
                 テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
@@ -10,7 +10,7 @@
         </div>
         <div class="box">
             <div class="content">
-                <img src="../components/athletic.png">
+                <img src="/athletic.png">
             </div>
             <div class="text">
                 テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
@@ -18,7 +18,7 @@
         </div>
         <div class="box">
             <div class="content">
-                <img src="../components/athletic.png">
+                <img src="/athletic.png">
             </div>
             <div class="text">
                 テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
@@ -26,7 +26,7 @@
         </div>
         <div class="box">
             <div class="content">
-                <img src="../components/athletic.png">
+                <img src="/athletic.png">
             </div>
             <div class="text">
                 テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
@@ -34,7 +34,7 @@
         </div>
         <div class="box">
             <div class="content">
-                <img src="../components/athletic.png">
+                <img src="/athletic.png">
             </div>
             <div class="text">
                 テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
@@ -42,7 +42,7 @@
         </div>
         <div class="box">
             <div class="content">
-                <img src="../components/athletic.png">
+                <img src="/athletic.png">
             </div>
             <div class="text">
                 ここに説明
@@ -50,7 +50,7 @@
         </div>
         <div class="box">
             <div class="content">
-                <img src="../components/athletic.png">
+                <img src="/athletic.png">
             </div>
             <div class="text">
                 テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
@@ -58,7 +58,7 @@
         </div>
         <div class="box">
             <div class="content">
-                <img src="../components/athletic.png">
+                <img src="/athletic.png">
             </div>
             <div class="text">
                 テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
@@ -66,7 +66,7 @@
         </div>
         <div class="box">
             <div class="content">
-                <img src="../components/athletic.png">
+                <img src="/athletic.png">
             </div>
             <div class="text">
                 テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
@@ -74,7 +74,7 @@
         </div>
         <div class="box">
             <div class="content">
-                <img src="../components/athletic.png">
+                <img src="/athletic.png">
             </div>
             <div class="text">
                 テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
