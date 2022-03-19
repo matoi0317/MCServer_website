@@ -21,6 +21,7 @@
 html, body {
     margin: 0px;
     padding: 0px;
+   font-family: "Hannari";
 }
 </style>
 <style scoped>
