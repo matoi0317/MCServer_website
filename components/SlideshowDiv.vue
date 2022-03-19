@@ -3,11 +3,16 @@
     <swiper class="swiper" :options="swiperOption">
       <swiper-slide class="slide1"><img class = "slide-image" src="/athletic.png" /></swiper-slide>
       <swiper-slide></swiper-slide>
-      <swiper-slide>Slide</swiper-slide>
-      <swiper-slide>Slide 4</swiper-slide>
-      <swiper-slide>Slide 5</swiper-slide>
-      <swiper-slide>Slide 6</swiper-slide>
-      <swiper-slide>Slide 7</swiper-slide>
+      <swiper-slide><img class = "slide-image" src="/build.png" /></swiper-slide>
+      <swiper-slide><img class = "slide-image" src="/lobby.png" /></swiper-slide>
+      <swiper-slide><img class = "slide-image" src="/test.png" /></swiper-slide>
+      <swiper-slide><img class = "slide-image" src="/athletic.png" /></swiper-slide>
+      <swiper-slide><img class = "slide-image" src="/athletic.png" /></swiper-slide>
+      <swiper-slide><img class = "slide-image" src="/athletic.png" /></swiper-slide>
+      <swiper-slide><img class = "slide-image" src="/athletic.png" /></swiper-slide>
+      <swiper-slide><img class = "slide-image" src="/athletic.png" /></swiper-slide>
+      <swiper-slide><img class = "slide-image" src="/athletic.png" /></swiper-slide>
+      <swiper-slide><img class = "slide-image" src="/athletic.png" /></swiper-slide>
       <div class="swiper-pagination" slot="pagination"></div>
     </swiper>
   </div>
