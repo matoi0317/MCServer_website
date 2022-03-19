@@ -5,31 +5,31 @@
                 <img src="/athletic.png">
             </div>
             <div class="text">
-                テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
+                みんなでわいわいサバイバル生活ができるよ！
             </div>
         </div>
         <div class="box">
             <div class="content">
-                <img src="/athletic.png">
+                <img src="/lobby.png">
             </div>
             <div class="text">
-                テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
+                NULLサーバーのロビー!すばらしい建築が集まったロビーをぜひご覧ください！
             </div>
         </div>
         <div class="box">
             <div class="content">
-                <img src="/athletic.png">
+                <img src="/test.png">
             </div>
             <div class="text">
-                テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
+                マイクラ初心者から上級者まで楽しく遊べる様々なアスレチックがあります！
             </div>
         </div>
         <div class="box">
             <div class="content">
-                <img src="/athletic.png">
+                <img src="/build.png">
             </div>
             <div class="text">
-                テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
+                自由に建築ができる建築ワールド!建築の練習をするもよし、レッドストーン回路を学ぶもよし、なんでもできる建築ワールド！
             </div>
         </div>
         <div class="box">
