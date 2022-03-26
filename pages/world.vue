@@ -108,6 +108,13 @@ html{
     background-color: black;
     margin: 3%;
     color:white;
+    transition: .5s ease;
+}
+
+
+.box:hover {
+    width: 30%;
+    height: 55%;
 }
 
 .box .content{
