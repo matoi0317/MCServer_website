@@ -5,15 +5,17 @@
       <div class="menu">
         <a class="active" href="homepage">Home</a>
         <a href="world">ワールド</a>
-        <a href="updates">アップデート</a>
+        <a href="#updates">アップデート</a>
         <a href="rule">ルール</a>
-        <a href="contact">メンバー紹介</a>
+        <a href="homepage #updates">メンバー紹介</a>
       </div>
 </div>
     <nuxt />
 </div>
 </template>
-<script></script>
+<script>
+console.log("hi")
+</script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Zen+Maru+Gothic&display=swap');

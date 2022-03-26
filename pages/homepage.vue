@@ -5,8 +5,8 @@
       <div class="SlideshowDiv"><SlideshowDiv></SlideshowDiv></div>
       <div class="SideMenuDiv"><SideMenuDiv></SideMenuDiv></div>
     </div>
-    <div class="Updates"><Updates></Updates></div>
-    <div class="Member"><Member></Member></div>
+    <div class="Updates" id="updates"><Updates></Updates></div>
+    <div class="Member" id="member"><Member></Member></div>
 </div>
 </template>
 
@@ -50,15 +50,13 @@ export default {
 
 .Updates{
   float:left;
-  height:100%;
+  height: calc(100vh);
   width:100%;
-  background-color:blue;
 }
 
 .Member {
   float:left;
-  height:100%;
+  height: calc(100vh);
   width:100%;
-  background-color:pink;
 }
 </style>
