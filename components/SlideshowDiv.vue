@@ -5,61 +5,55 @@
       <swiper-slide class="slide1">
         <img class = "slide-image" src="/athletic.png" />  
         <div class="overlay">
-        <div class="text"><h1>Athletic World (アスレチック)</h1></div>  
+        <div class="text">Athletic World (アスレチック)</div>  
         </div>
       </swiper-slide>
       <swiper-slide class="slide2">
         <img class = "slide-image" src="/build.png" />  
         <div class="overlay">
-        <div class="text">John Doe</div>  
+        <div class="text">Lobby <br> (ロビー）</div>  
         </div>
       </swiper-slide>
       <swiper-slide class="slide3">
         <img class = "slide-image" src="/lobby.png" />  
         <div class="overlay">
-        <div class="text">John Doe</div>  
+        <div class="text">Oni <br>（鬼ごっこ）</div>  
         </div>
       </swiper-slide>
       <swiper-slide class="slide4">
         <img class = "slide-image" src="/test.png" />  
         <div class="overlay">
-        <div class="text">John Doe</div>  
+        <div class="text">TNT <br> (ボンバーマン)</div>  
         </div>
       </swiper-slide>
       <swiper-slide class="slide5">
         <img class = "slide-image" src="/athletic.png" />  
         <div class="overlay">
-        <div class="text">John Doe</div>  
+        <div class="text">Typing <br>（タイピング）</div>  
         </div>
       </swiper-slide>
       <swiper-slide class="slide6">
         <img class = "slide-image" src="/athletic.png" />  
         <div class="overlay">
-        <div class="text">John Doe</div>  
+        <div class="text">Survival <br>（サバイバル）</div>  
         </div>
       </swiper-slide>
       <swiper-slide class="slide7">
         <img class = "slide-image" src="/athletic.png" />  
         <div class="overlay">
-        <div class="text">John Doe</div>  
+        <div class="text">Skywars <br>（スカイヲーズ）</div>  
         </div>
       </swiper-slide>
       <swiper-slide class="slide8">
         <img class = "slide-image" src="/athletic.png" />  
         <div class="overlay">
-        <div class="text">John Doe</div>  
+        <div class="text">PVM <br>（プレイヤーvsモンスター）</div>  
         </div>
       </swiper-slide>
       <swiper-slide class="slide9">
         <img class = "slide-image" src="/athletic.png" />  
         <div class="overlay">
-        <div class="text">John Doe</div>  
-        </div>
-      </swiper-slide>
-      <swiper-slide class="slide10">
-        <img class = "slide-image" src="/athletic.png" />  
-        <div class="overlay">
-        <div class="text">John Doe</div>  
+        <div class="text">RPG</div>  
         </div>
       </swiper-slide>
 
@@ -122,8 +116,9 @@
   .text {
   background-color: #04AA6D;
   color: white;
-  font-size: 16px;
+  font-size: 32px;
   padding: 16px 32px;
+  overflow-wrap: normal;
   }
   .swiper {
     width: 600px !important;
