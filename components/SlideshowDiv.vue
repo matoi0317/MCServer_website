@@ -5,7 +5,7 @@
       <swiper-slide class="slide1">
         <img class = "slide-image" src="/athletic.png" />  
         <div class="overlay">
-        <div class="text">John Doe</div>  
+        <div class="text"><h1>Athletic World (アスレチック)</h1></div>  
         </div>
       </swiper-slide>
       <swiper-slide class="slide2">

@@ -1,4 +1,5 @@
 <template>
+
 <div class="wrapper">
     <div class="wrapper1">
       <div class="SlideshowDiv"><SlideshowDiv></SlideshowDiv></div>
@@ -10,6 +11,7 @@
 </template>
 
 <script>
+
 import SlideshowDiv from "~/components/SlideshowDiv"
 import SideMenuDiv from "~/components/SideMenuDiv"
 export default {
@@ -18,6 +20,7 @@ export default {
 </script>
 
 <style scoped>
+
 .wrapper {
   height: calc(100vh - 50px);
   z-index: 1;
@@ -31,7 +34,7 @@ export default {
 .SlideshowDiv{
   height:100%;
   width:66%;
-  background-color:yellow;
+  background-color:black;
   margin: 0px;
 }
 .SideMenuDiv{
@@ -39,6 +42,10 @@ export default {
   width:34%; 
   /* background-color:red; */
   margin: 0px;
+  transition: .5s ease;
+}
+.SideMenuDiv:hover {
+  background-color: #ddd;
 }
 
 .c{

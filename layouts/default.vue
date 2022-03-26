@@ -1,6 +1,15 @@
 <template>
 <div class="global-wrapper">
-    <div class="global-header">NULL</div>
+    <div class="global-header">
+      <div class="heading"><h1>NULL</h1></div>
+      <div class="menu">
+        <a class="active" href="#home">Home</a>
+        <a href="#worlds">ワールド</a>
+        <a href="#updates">アップデート</a>
+        <a href="#rules">ルール</a>
+        <a href="#contact">メンバー紹介</a>
+</div>
+    </div>
     <div class = "right-menu">
       <!-- <button class = 'button menu-button'> Menu </button> -->
       <div class="menu-icon"></div>
@@ -18,10 +27,13 @@
 </template>
 <script></script>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Zen+Maru+Gothic&display=swap');
 html, body {
     margin: 0px;
     padding: 0px;
-   font-family: "Hannari";
+   font-family: 'DotGothic16', sans-serif;
+   /* font-family: 'Zen Maru Gothic', sans-serif; */
 }
 </style>
 <style scoped>
@@ -30,9 +42,57 @@ html, body {
     border-bottom: solid 1px #ddd;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     text-align: center;
-    padding: 0 20px;
+    overflow: hidden;
+    transition: .5s ease;
 }
+.global-header:hover {
+  background-color: black;
+  color: white;
+}
+
+.global-header:hover a{
+  color: white;
+}
+
+.global-header:hover a.active{
+  background-color: #ddd;
+  color: black;
+}
+
+.heading {
+  position: absolute;
+  left: 1%;
+}
+.menu {
+  overflow: hidden;
+  display: flex;
+  justify-self: flex-end;
+  flex-direction: row;
+}
+
+.menu a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 20.5px;
+  text-decoration: none;
+  font-size: 17px;
+  border-left:  1px solid  black;
+}
+
+.menu a:hover {
+  background-color: #f2f2f2;
+  color: grey;
+}
+
+.menu a.active {
+  background-color: black;
+  color: white;
+  font-size: 17px;
+}
+
 .right-menu {
     margin: 32px;
     font-family: courier;
